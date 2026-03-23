@@ -293,15 +293,7 @@ This system has been formally verified for the Sprint 3 Data Science workflows.
 * **Conda Version:** 24.x.x (Verified via `conda --version`)
 * **Active Environment:** `inventory_sprint` (Verified via `conda env list`)
 
-
 ### Jupyter Verification
 * Successfully launched `jupyter notebook` from the `inventory_sprint` environment.
 * Successfully created a new notebook and executed Python code in the browser without kernel connection errors.
-* **Proof:** The environment paths are correctly isolated from the global Windows Python installation.# Understanding Code vs. Markdown Cells
-**Author:** Thamizhanban.M
-
-This notebook demonstrates the fundamental difference between executable code and human-readable explanation. 
-
-In Data Science, we use notebooks to tell a story:
-* **Code cells** perform the heavy lifting (math, data processing, modeling).
-* **Markdown cells** explain *why* we are doing it and what the results mean.
+* **Proof:** The environment paths are correctly isolated from the global Windows Python installation.
